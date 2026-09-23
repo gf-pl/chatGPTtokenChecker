@@ -24,3 +24,6 @@ Cards persist across restarts. On the first start after upgrading from the old t
 - **History:** readings collected by this app after sign-in. Earlier usage and a complete record of past reset redemptions cannot be reconstructed.
 
 Plan price and automatic top-up state are not returned by these App Server methods, so they are not displayed. The dashboard shows Codex and Work plan limits, not ordinary ChatGPT conversation message limits. It uses the documented [Codex App Server](https://learn.chatgpt.com/docs/app-server) account methods. OpenAI API organization Admin keys access a different billing and usage system.
+
+
+Billing dates are not available from the Codex account connection used by this app. For a self-service monthly ChatGPT subscription, billing recurs on the day you subscribed and invoice dates follow that schedule. See the [OpenAI billing guidance](https://help.openai.com/en/articles/8156167-how-can-i-change-my-invoice-date).

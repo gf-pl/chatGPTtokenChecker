@@ -19,8 +19,6 @@
       <div class="top-actions"><span id="updated" class="updated">Loading…</span><button id="refresh" type="button">Refresh now</button></div>
     </header>
 
-    <div class="notice">Connect each ChatGPT account once with the official Codex sign-in. This monitor reads plan usage automatically every few minutes and keeps a local history. Your OpenAI API Admin keys are not used.</div>
-
     <section class="account-tools" aria-label="Manage accounts">
       <div><h2>Accounts</h2><p>Add a card for each ChatGPT account you want to monitor.</p></div>
       <button id="addToggle" type="button">+ Add account</button>
@@ -39,7 +37,9 @@
     <section class="info-panel">
       <h2>What the numbers mean</h2>
       <p>The percentage is remaining capacity in each plan window. The time shown is the next reset of that window. Available resets are credits you can choose to redeem in Codex; this dashboard never redeems them. The source reports balances and available resets, but does not provide your plan price, automatic top-up setting, or a complete history of past reset redemptions.</p>
+      <p>Card charge and invoice dates are not provided by the connected account data. For a self-service monthly ChatGPT subscription, billing repeats on the day you subscribed, and invoice dates follow that schedule. See the <a href="https://help.openai.com/en/articles/8156167-how-can-i-change-my-invoice-date" target="_blank" rel="noopener noreferrer">OpenAI billing guidance</a>.</p>
       <p>Each account has its own sign-in stored in the Docker data volume. This page is bound to your computer by default.</p>
+      <p>Connect each ChatGPT account once with the official Codex sign-in. This monitor reads plan usage automatically every few minutes and keeps a local history. Your OpenAI API Admin keys are not used.</p>
     </section>
   </div>
 </body>

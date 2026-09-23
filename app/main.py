@@ -80,3 +80,4 @@ async def sync(account_id: str):
     require_account(account_id)
     await monitor.sync(account_id)
     return monitor.dashboard()
+
